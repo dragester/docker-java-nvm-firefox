@@ -10,3 +10,5 @@ RUN apt-get install -y \
 	psmisc
 
 RUN curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.4/install.sh | bash
+
+ENV DISPLAY=:0
